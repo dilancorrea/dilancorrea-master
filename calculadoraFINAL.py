@@ -110,13 +110,6 @@ dibujarBoton(150, -90, "#66a3ff")
 # Dibuja el label de los botones
 
 def dibujaLabel(x, y, valor):
-    """
-        Descripcion: Esta es un codigo el cual nos ayudara a dibujar el numero de los botones.
-        Entradas: x es un entero el cual representa la coordenada en x de la parte superior izquierda.
-                  y es un entero el cual representa la coordenada en y de la parte superior izquierda.
-                  valor es un string que determina el numero del boton.
-        Salida: Movimiento de la tortuga.
-        """
     turtle.penup()
     turtle.goto(x, y)
     turtle.pendown()
